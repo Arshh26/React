@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "create-first-comp",
+=======
+  "name": "learning-bootstrap",
+>>>>>>> 6f0e698 (Initial commit)
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,6 +14,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "bootstrap": "^5.3.8",
+>>>>>>> 6f0e698 (Initial commit)
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
