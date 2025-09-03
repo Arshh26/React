@@ -1,5 +1,4 @@
-const Item = (props) => {
-  let { foodItems } = props;
+const Item = ({ foodItems }) => {
   return (
     <>
       <li className="list-group-item">{foodItems}</li>

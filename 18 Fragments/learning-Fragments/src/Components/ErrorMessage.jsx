@@ -1,15 +1,15 @@
-const ErrorMessage = () => {
-  let foodItems = [
-    "Green Vegetables",
-    "fruits",
-    "Milk",
-    "Water",
-    "Coconut Water",
-  ];
+const ErrorMessage = ({ items }) => {
+  // let foodItems = [
+  //   "Green Vegetables",
+  //   "fruits",
+  //   "Milk",
+  //   "Water",
+  //   "Coconut Water",
+  // ];
 
   return (
     <>
-      {foodItems.length === 0 && <h3>I am Hungry</h3>}
+      {items.length === 0 && <h3>I am Hungry</h3>}
       {/* Ternary Operators */}
     </>
   );
