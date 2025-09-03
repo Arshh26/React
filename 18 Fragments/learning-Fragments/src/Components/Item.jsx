@@ -1,7 +1,8 @@
 const Item = (props) => {
+  let foodItems = props;
   return (
     <>
-      <li className="list-group-item">{props.foodItems}</li>
+      <li className="list-group-item">{foodItems}</li>
     </>
   );
 };
